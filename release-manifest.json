@@ -1,0 +1,316 @@
+{
+  "skill_name": "qianlima-bid-daily-workflow",
+  "release_id": "qianlima-bid-daily-workflow_20260722_v1.2",
+  "release_date": "2026-07-22",
+  "version": "v1.2",
+  "package_sha256": null,
+  "package_sha256_note": "Detached .skill SHA256 is recorded beside the package.",
+  "files": [
+    {
+      "path": "assets/rules_current.yaml",
+      "sha256": "55f34e8c2afdbde58e1a7da45cf099ff79ba49837a081ea5931c6fb046041049"
+    },
+    {
+      "path": "assets/照明招标线索日报_格式样板_20260616_v05.xlsx",
+      "sha256": "877f5970aec7b9b987bc4d44b2c67edad29c12dad88e0fa9d5d622fb380ab154"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-attach-download-quality-u2.md",
+      "sha256": "7ea885df3a3602ebc70d057f251eb7854cb25166fbd5f4c8c701c1e2d1300592"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-attach-download-watchdog.md",
+      "sha256": "c9d68b272a7731a7bf9c27f9dabcf84d67f21ba1025baecb584a849398a740fb"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-attach-rename.md",
+      "sha256": "7758b01d668704657ac1d74c5ee845739bccbd9c03b0c671269fd0ea1e6593e3"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-cdp-contention.md",
+      "sha256": "648bde9185cc780b3c84d863d783ad60dc0c3dc1f3e182c61fa1ac6030b11761"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-dingtalk-backup.md",
+      "sha256": "a0dbba2b5abc2baf1333e1548d4bfa5870651cadf35f53490264d35a27faf2c0"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-quota-zero.md",
+      "sha256": "cfebd08d4b5bfe456aa209a78c30f47f77544578db4081976c9757c6728c5289"
+    },
+    {
+      "path": "issue-log/entries/ISSUE-20260714-soft-continue.md",
+      "sha256": "397e61e8c0cabd545831dec7ac3761a0af6f88c549f301b8a5d8abe87905d551"
+    },
+    {
+      "path": "issue-log/INDEX.md",
+      "sha256": "656f48e764f40f13173fe729a1911c0147ca7a1579dcce210aa17044cd733119"
+    },
+    {
+      "path": "issue-log/README.md",
+      "sha256": "c86d3e40826dc12113a51b0b1a02a02dccda12900279acbb8e19b1977cdb6e50"
+    },
+    {
+      "path": "issue-log/SITE_UI_CHANGE_PLAYBOOK.md",
+      "sha256": "f7f1441d43945220d51807bf685595d9acb60d26d7ea51dd86e1f728bfa5f70c"
+    },
+    {
+      "path": "issue-log/TEMPLATE.md",
+      "sha256": "6d008bbcabec777adb10d13849cedf143ddca44ef87cd39c6e62acacaad59291"
+    },
+    {
+      "path": "lessons/lessons_log.md",
+      "sha256": "9cefa2669a6c90c15b33ae3d533b52ce2239640b8e7006568ef6544758747f5e"
+    },
+    {
+      "path": "lessons/lessons_template.md",
+      "sha256": "b921149f09b7908799b9a49501cd902d11d77f15af8d8582fe7e39874a2d4024"
+    },
+    {
+      "path": "lessons/README.md",
+      "sha256": "e1f0dcef78a53ea4441c31f6b0adc5fbfe096a61a0dd5efe700a66f9be50a8e8"
+    },
+    {
+      "path": "references/candidate-test-protocol.md",
+      "sha256": "e677857a128a10ab07a34a200d624d38d9c0c7516cc47c72d230bdc8f08307b7"
+    },
+    {
+      "path": "references/first-install-and-permissions.md",
+      "sha256": "ee2cfd10d423a8ce532f5fdcf3dfa8ce591b68934d8a9290dabaa7a77ead1101"
+    },
+    {
+      "path": "references/kimi-webbridge-usage.md",
+      "sha256": "b3ede8f4e024b4b1b101c84710bbd8d3df250f7deaf585689b7b92c3984d2b33"
+    },
+    {
+      "path": "references/logging-and-records.md",
+      "sha256": "2e7794c3eefe5d42e1a8b9f833624879bd66291fb52bf3c6ec818095e37cf1b7"
+    },
+    {
+      "path": "references/phase1-qianlima-export.md",
+      "sha256": "d93569668513810aa2323ec86261a375c4da15601f4bf641c759b18e73088c5d"
+    },
+    {
+      "path": "references/phase2-screening-rules.md",
+      "sha256": "ced389b78c5ce835c533ee9b2d4140d0520ee728808f6629e15e84ab0d77189c"
+    },
+    {
+      "path": "references/phase3-excel-contract.md",
+      "sha256": "e66c89e4c9bd89899deeb5ade1c9f6ba10d52dc2baa0bcf48338c0ffb56e62e4"
+    },
+    {
+      "path": "references/phase4-archive-dingtalk.md",
+      "sha256": "66f15bd67147ae6b8b2dcc16a2f48e210be3c371784c7aa9a63203aad9a87f46"
+    },
+    {
+      "path": "references/release-governance.md",
+      "sha256": "e537b019efc8c31935833cb5c425cbd819aced405431b9b36428bebc6c84809a"
+    },
+    {
+      "path": "references/runtime-requirements.md",
+      "sha256": "2c322af4c8f8a19811226e06ba93cb885302443d8ce728b808e5a2489e065f6a"
+    },
+    {
+      "path": "references/team-knowledge-obsidian-plan.md",
+      "sha256": "1ecdc78a63fd8e5517122e423b24f2d83e5c6bb462a142217f6c4eff1d1f6f1a"
+    },
+    {
+      "path": "references/troubleshooting.md",
+      "sha256": "6db03f89d26e5bf99bb039a0f209fa12e7262fc07a9b87dd4a8a2a86b00cfe0c"
+    },
+    {
+      "path": "references/verified-baseline-cases.md",
+      "sha256": "d80d0967af910231af9176bf93de433704e8d06c039645cb15b6cad5a95d6259"
+    },
+    {
+      "path": "references/workflow-split-into-skills-design.md",
+      "sha256": "3694b7db4ce8c67c15ade3836691a7ca71dec9448769cc88e736a4b8112e5aa8"
+    },
+    {
+      "path": "references/workspace-directory-standard.md",
+      "sha256": "dce97f3d71ebebc0f2bc1eb4e24ab4d5bebded9fb380fe70ee1b35eaba57f24f"
+    },
+    {
+      "path": "references/workspace-recording-standard.md",
+      "sha256": "7d2c89e021c08278929d71fb877b63e0024c4ac97a32b41a92c0ddb292a397b8"
+    },
+    {
+      "path": "scripts/bid_business_rejudge_20260622_v04.py",
+      "sha256": "68aed6b42708281a697516f025ab8b42721dab80340a0e032a84313a270d43f5"
+    },
+    {
+      "path": "scripts/bid_business_rules_20260602_v02.py",
+      "sha256": "c9242e3d3de03eecf7540d6b0cc00880435f6121729a8de92bf5b06c3507cd26"
+    },
+    {
+      "path": "scripts/bid_export_auto_v1.py",
+      "sha256": "68084de736eb23cf053cf1128623e1b836de721e1412cf3e83bdfb0147d3c302"
+    },
+    {
+      "path": "scripts/bid_screening_20260622_v02.py",
+      "sha256": "141c603c2a4f89191e017d496ff6332998536ce1d9bdf1c062709053103ddab1"
+    },
+    {
+      "path": "scripts/cdp_run_lock_20260714_v01.py",
+      "sha256": "b5424b212d41959d9b8fda584e92e49c008b6a98f83904c0c28e44bb3a8c0d6c"
+    },
+    {
+      "path": "scripts/ensure_browser_channel_20260622_v01.py",
+      "sha256": "ecac4a68d8c33a2ec3cecff9cfdb6fcbd2d416111fcebc24d127c2bde5d50528"
+    },
+    {
+      "path": "scripts/gen_report_archive_push_formal_20260622_v06.py",
+      "sha256": "d5cb45b6f1cf01eb3d09da18ce0cf5f295f8c7d80e4420a984c2c9831c0d8b7a"
+    },
+    {
+      "path": "scripts/generate_test_record_20260625_v01.py",
+      "sha256": "670923c6d242a6a946f5dfdb287223f6c3058e52ffcda8ae542256f47c9f249b"
+    },
+    {
+      "path": "scripts/kimi_attachment_preview_read_20260622_v06.py",
+      "sha256": "6b4dcc0f32d4558c3c902d9657efcc1c3b29766713530991a7906f07ad534adb"
+    },
+    {
+      "path": "scripts/kimi_vip_body_read_20260622_v04.py",
+      "sha256": "7451d25e9596616b3def90c2918d7173c7f8c6e7f5934eb97d2e732ddde83504"
+    },
+    {
+      "path": "scripts/kimi_webbridge_preflight_20260610_v01.py",
+      "sha256": "97a5a1722a3cfa06c9d0a5e6ab3c6d900142246b21844c2e0cd5629921f21bcc"
+    },
+    {
+      "path": "scripts/LEGACY.md",
+      "sha256": "51c246d3328f76f6f1dae88853fbf9bfd5ed2031f51058c16fc0dc23e41032e2"
+    },
+    {
+      "path": "scripts/prepare_runtime_20260622_v02.py",
+      "sha256": "36f12db01eceb99c72e20c90120f92965f680c8c349c2225725ee61578d7e352"
+    },
+    {
+      "path": "scripts/qianlima_auto_login_20260622_v02.py",
+      "sha256": "af25c731af21d371d9da6d2a87a31787e430a2f4d15e8aa88a8ef5e0791fbf27"
+    },
+    {
+      "path": "scripts/qianlima_cdp_body_attachment_reader_20260624_v05.py",
+      "sha256": "554a4f5233dc82c245c0ae67432b39fdbb8de12989c62756a0ad56a17ad2e428"
+    },
+    {
+      "path": "scripts/report_builder_20260615_v1.py",
+      "sha256": "469b696614eb77512b328551706a74d4ad750f84bf581cb3e0308f161aad518e"
+    },
+    {
+      "path": "scripts/run_daily_pipeline_20260622_v04.py",
+      "sha256": "b281aca19a2e8e5045256f90daf1a3853ecda5efdb9119e73d4143d0809de4e4"
+    },
+    {
+      "path": "scripts/runtime_preflight_20260622_v02.py",
+      "sha256": "2d68f3508e3a3ce14dc52b292dbaa48e18d09ee7cd1a0fc30276525cd8810a2b"
+    },
+    {
+      "path": "scripts/tpk-ocr/install_to_openclaw.ps1",
+      "sha256": "dca0234e05835e65133cfae943d8e502eee5fab622b055670849d23d935272a9"
+    },
+    {
+      "path": "scripts/tpk-ocr/install_to_openclaw.sh",
+      "sha256": "e5a3dbaf0fa7023f7adb26f6461ba1ce43f023fafac3fa637d66076e0e8f46f5"
+    },
+    {
+      "path": "scripts/tpk-ocr/README.md",
+      "sha256": "9a8b9d6fa4dcedffa476c5016938955394a4107bbcdaaf0a09de490d6f1f773d"
+    },
+    {
+      "path": "scripts/tpk-ocr/requirements.txt",
+      "sha256": "2f46a01aadcaacbdae7de756d5aba262845ac7c3faab76241a5293b54723602e"
+    },
+    {
+      "path": "scripts/tpk-ocr/scripts/ocr_image.py",
+      "sha256": "f8d07186b13137823d159f68734cc045d969af4cf65df8226d21dfa15e08de2a"
+    },
+    {
+      "path": "scripts/tpk-ocr/scripts/ocr_pdf.py",
+      "sha256": "ecaf4e589759169a6b4e0c85b34ef965f1f03173972f5b646aa286b9546f3c46"
+    },
+    {
+      "path": "scripts/tpk-ocr/SKILL.md",
+      "sha256": "3331de981858354d357d8a4c3eb8e57f86d892b14adf7595df780ef3013a7e4a"
+    },
+    {
+      "path": "scripts/validate_cdp_body_attachment_reader_20260622_v03.py",
+      "sha256": "f846d5d8749e671b94ab5145d401fbf7e06e755db41dc02443d3e5335364d7b2"
+    },
+    {
+      "path": "scripts/validate_excel_template_contract_20260603_v02.py",
+      "sha256": "f82823a5e1037da8c89d416b7d227626afa42d3bfc8438bd0a648e64fbb14c75"
+    },
+    {
+      "path": "scripts/validate_phase2_rejudge_20260622_v02.py",
+      "sha256": "bd29c0f4481bac0610902b963273a4272f2ab55afebc78e8bf63975be25fbc55"
+    },
+    {
+      "path": "scripts/validate_text_encoding_20260625_v01.py",
+      "sha256": "cba5cf3aaec28c41ea799df2bbb22d759aae5e9bd07d6683f255d6fa5570f0b2"
+    },
+    {
+      "path": "scripts/verify_release_manifest_20260623_v01.py",
+      "sha256": "d95ebe5fbf488b851a70eca32d6043ef4885192a930977121fbcfe077058d880"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "ed6b54de1c464ca486d74a5320102b48d3c7a1a18a6665e653e826e0d8b76cfe"
+    },
+    {
+      "path": "tool/dingtalk-cli-universal-skill-v2.0.0.zip",
+      "sha256": "c81ffc9d922b681eeef23085c19a23164b69af343b2490da8850cca79d12885e"
+    },
+    {
+      "path": "tool/tpk-ocr-skill.zip",
+      "sha256": "b465c2a2de12c21f1b42d8beeeb194510ac3f0b704a5e9d71d7816294c56ee1c"
+    },
+    {
+      "path": "改动说明/P1-03_筛选与复判规则拆解_20260715.md",
+      "sha256": "8bbdfdf7f94e6713991c7c525be3d1d511f320b1089e743dd6ef5552db84091b"
+    },
+    {
+      "path": "改动说明/README.md",
+      "sha256": "da85b85a5623a0a537b14385410e3140e5b38dd5de0195dca60857c320925c68"
+    },
+    {
+      "path": "改动说明/待修复问题清单.md",
+      "sha256": "14c9ff1d3095f29f157f88dfa10cc9fd09c178b9b7bf60176983f0ccafd96aa8"
+    },
+    {
+      "path": "改动说明/测试任务_待办_全量复测_20260714.md",
+      "sha256": "6f7b629c0e1f1ed81dc582fe3459a2c3aa86352ee2a6d4e23ff8a7bc3045a4f7"
+    },
+    {
+      "path": "改动说明/筛选规则_人话版操作手册_20260715.md",
+      "sha256": "1584428eee8e539eb2ec5d92ccb051fba4e3aec718a8e3eb7fe34963661da024"
+    },
+    {
+      "path": "改动说明/给D盘同步Agent_干净文件清单_20260715.md",
+      "sha256": "923d144c6856b56ec7c82d8dbac7e27602405a971d1e6b01d7bdce33cdb340fb"
+    },
+    {
+      "path": "改动说明.md",
+      "sha256": "c8af8487f1abb52a4c4fe7aaee17d0de0c181bed1c1eb70c0429e67834b1a929"
+    },
+    {
+      "path": "更新说明_v1.1.md",
+      "sha256": "cd0bb2f871a5b58ba59feeda89768fc44a25c7f7f3640fe57fa9aae988e87886"
+    },
+    {
+      "path": "更新说明_v1.2.md",
+      "sha256": "46a8fc3f5960492da841c91ad2d0026b1ad4468cdc7ea991e9bc17d3b70ab949"
+    },
+    {
+      "path": "给其他Agent_四类记录目录落地说明_v01.md",
+      "sha256": "3ea8a6bc81945aae0c58f4b9db3319ea2afd509580b09533a206aa878919479a"
+    }
+  ],
+  "entrypoint": "scripts/run_daily_pipeline_20260622_v04.py",
+  "template": "assets/照明招标线索日报_格式样板_20260616_v05.xlsx",
+  "rules": "assets/rules_current.yaml",
+  "minimum_python_version": "3.11",
+  "release_status": "released",
+  "release_note": "v1.2 formal 2026-07-22: zip attach URL preserve on download fail; excel validate download_ok=false as warning; stream/click result explicit init; builds on v1.1 MergedCell/all_reject/workspace standards"
+}
