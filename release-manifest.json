@@ -4,8 +4,12 @@
   "release_date": "2026-07-22",
   "version": "v1.2",
   "package_sha256": null,
-  "package_sha256_note": "Detached .skill SHA256 is recorded beside the package.",
+  "package_sha256_note": "GitHub clean package; detached package SHA optional.",
   "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "1a27eef69f87bae123847859efafa2a30a5c27d5f05b95ce78dab801f4b28f36"
+    },
     {
       "path": "assets/rules_current.yaml",
       "sha256": "55f34e8c2afdbde58e1a7da45cf099ff79ba49837a081ea5931c6fb046041049"
@@ -15,60 +19,8 @@
       "sha256": "877f5970aec7b9b987bc4d44b2c67edad29c12dad88e0fa9d5d622fb380ab154"
     },
     {
-      "path": "issue-log/entries/ISSUE-20260714-attach-download-quality-u2.md",
-      "sha256": "7ea885df3a3602ebc70d057f251eb7854cb25166fbd5f4c8c701c1e2d1300592"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-attach-download-watchdog.md",
-      "sha256": "c9d68b272a7731a7bf9c27f9dabcf84d67f21ba1025baecb584a849398a740fb"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-attach-rename.md",
-      "sha256": "7758b01d668704657ac1d74c5ee845739bccbd9c03b0c671269fd0ea1e6593e3"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-cdp-contention.md",
-      "sha256": "648bde9185cc780b3c84d863d783ad60dc0c3dc1f3e182c61fa1ac6030b11761"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-dingtalk-backup.md",
-      "sha256": "a0dbba2b5abc2baf1333e1548d4bfa5870651cadf35f53490264d35a27faf2c0"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-quota-zero.md",
-      "sha256": "cfebd08d4b5bfe456aa209a78c30f47f77544578db4081976c9757c6728c5289"
-    },
-    {
-      "path": "issue-log/entries/ISSUE-20260714-soft-continue.md",
-      "sha256": "397e61e8c0cabd545831dec7ac3761a0af6f88c549f301b8a5d8abe87905d551"
-    },
-    {
-      "path": "issue-log/INDEX.md",
-      "sha256": "656f48e764f40f13173fe729a1911c0147ca7a1579dcce210aa17044cd733119"
-    },
-    {
-      "path": "issue-log/README.md",
-      "sha256": "c86d3e40826dc12113a51b0b1a02a02dccda12900279acbb8e19b1977cdb6e50"
-    },
-    {
-      "path": "issue-log/SITE_UI_CHANGE_PLAYBOOK.md",
-      "sha256": "f7f1441d43945220d51807bf685595d9acb60d26d7ea51dd86e1f728bfa5f70c"
-    },
-    {
-      "path": "issue-log/TEMPLATE.md",
-      "sha256": "6d008bbcabec777adb10d13849cedf143ddca44ef87cd39c6e62acacaad59291"
-    },
-    {
-      "path": "lessons/lessons_log.md",
-      "sha256": "9cefa2669a6c90c15b33ae3d533b52ce2239640b8e7006568ef6544758747f5e"
-    },
-    {
-      "path": "lessons/lessons_template.md",
-      "sha256": "b921149f09b7908799b9a49501cd902d11d77f15af8d8582fe7e39874a2d4024"
-    },
-    {
-      "path": "lessons/README.md",
-      "sha256": "e1f0dcef78a53ea4441c31f6b0adc5fbfe096a61a0dd5efe700a66f9be50a8e8"
+      "path": "README.md",
+      "sha256": "9b0a55c54a5120a548adbe1ceedaa0b1a5f48b3241fe6df1f4e778e65dfd87b6"
     },
     {
       "path": "references/candidate-test-protocol.md",
@@ -259,52 +211,8 @@
       "sha256": "ed6b54de1c464ca486d74a5320102b48d3c7a1a18a6665e653e826e0d8b76cfe"
     },
     {
-      "path": "tool/dingtalk-cli-universal-skill-v2.0.0.zip",
-      "sha256": "c81ffc9d922b681eeef23085c19a23164b69af343b2490da8850cca79d12885e"
-    },
-    {
-      "path": "tool/tpk-ocr-skill.zip",
-      "sha256": "b465c2a2de12c21f1b42d8beeeb194510ac3f0b704a5e9d71d7816294c56ee1c"
-    },
-    {
-      "path": "改动说明/P1-03_筛选与复判规则拆解_20260715.md",
-      "sha256": "8bbdfdf7f94e6713991c7c525be3d1d511f320b1089e743dd6ef5552db84091b"
-    },
-    {
-      "path": "改动说明/README.md",
-      "sha256": "da85b85a5623a0a537b14385410e3140e5b38dd5de0195dca60857c320925c68"
-    },
-    {
-      "path": "改动说明/待修复问题清单.md",
-      "sha256": "14c9ff1d3095f29f157f88dfa10cc9fd09c178b9b7bf60176983f0ccafd96aa8"
-    },
-    {
-      "path": "改动说明/测试任务_待办_全量复测_20260714.md",
-      "sha256": "6f7b629c0e1f1ed81dc582fe3459a2c3aa86352ee2a6d4e23ff8a7bc3045a4f7"
-    },
-    {
-      "path": "改动说明/筛选规则_人话版操作手册_20260715.md",
-      "sha256": "1584428eee8e539eb2ec5d92ccb051fba4e3aec718a8e3eb7fe34963661da024"
-    },
-    {
-      "path": "改动说明/给D盘同步Agent_干净文件清单_20260715.md",
-      "sha256": "923d144c6856b56ec7c82d8dbac7e27602405a971d1e6b01d7bdce33cdb340fb"
-    },
-    {
-      "path": "改动说明.md",
-      "sha256": "c8af8487f1abb52a4c4fe7aaee17d0de0c181bed1c1eb70c0429e67834b1a929"
-    },
-    {
-      "path": "更新说明_v1.1.md",
-      "sha256": "cd0bb2f871a5b58ba59feeda89768fc44a25c7f7f3640fe57fa9aae988e87886"
-    },
-    {
       "path": "更新说明_v1.2.md",
       "sha256": "46a8fc3f5960492da841c91ad2d0026b1ad4468cdc7ea991e9bc17d3b70ab949"
-    },
-    {
-      "path": "给其他Agent_四类记录目录落地说明_v01.md",
-      "sha256": "3ea8a6bc81945aae0c58f4b9db3319ea2afd509580b09533a206aa878919479a"
     }
   ],
   "entrypoint": "scripts/run_daily_pipeline_20260622_v04.py",
@@ -312,5 +220,5 @@
   "rules": "assets/rules_current.yaml",
   "minimum_python_version": "3.11",
   "release_status": "released",
-  "release_note": "v1.2 formal 2026-07-22: zip attach URL preserve on download fail; excel validate download_ok=false as warning; stream/click result explicit init; builds on v1.1 MergedCell/all_reject/workspace standards"
+  "release_note": "v1.2 clean GitHub package: scripts+assets+references+README; no logs/issue-log/changelog dumps"
 }
