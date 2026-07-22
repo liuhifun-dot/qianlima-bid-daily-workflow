@@ -12,7 +12,6 @@
 
 每天（或按工作日）自动完成「找标 → 筛标 → 核证据 → 出表 → 存档推送」，减少在 VIP 上手动点选与抄表，并保留可复核的证据与结论。
 
-**不做：** 不把账号、Webhook、Token 放进本仓库；不绕过验证码/二次验证。
 
 ---
 
@@ -40,7 +39,7 @@
 | 账号 | 千里马 VIP |
 | 正式推送（可选） | 钉钉机器人 Webhook；钉盘需 **dws**（DingTalk Workspace CLI）并登录 |
 | Agent（可选） | QClaw / OpenClaw 等，用于定时编排 |
-| 敏感配置 | **仓库外**单独文件（账号/webhook/钉盘 ID/归档路径），用 `--config` 或 `QLM_BID_CONFIG` |
+| 敏感配置 |（账号/webhook/钉盘 ID/归档路径），用 `--config` 或 `QLM_BID_CONFIG` |
 
 常用环境变量：`QLM_BID_CONFIG`、`QLM_BID_RUNTIME`（运行目录，如 `D:\bid_workflow`）。
 
@@ -98,6 +97,5 @@
 | 项 | 说明 |
 |:---|:---|
 | 当前 | **v1.2** |
-| 安全 | 禁止提交密码 / Webhook / Token |
 
 仓库：https://github.com/liuhifun-dot/qianlima-bid-daily-workflow  
